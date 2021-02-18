@@ -1,0 +1,2 @@
+# PrimeraPracticaGrupal
+Conflictos y resolverlos
