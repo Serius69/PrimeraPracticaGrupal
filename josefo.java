@@ -13,11 +13,12 @@ public class josefo {
 		circular cab=null;
 		int opcion=0,m=0,n=0,x=0;
 		do{
+
 			opcion=leer("jUEGO DE LAS MONEDAS \n 1 . AGREGAR CANTIDAD DE MONEDAS\n2. LISTADO\n3.- JUGAR!!!\n4.- Salir\n");
 			switch(opcion)
 			{
 			case 1:
-					m=leer("Cantidad de monedas");
+					m=leer("Monedasg");
 					for(int i=1;i<=m;i++) {
 						cab=agregar_lista(cab,i);
 					}
