@@ -13,18 +13,19 @@ public class josefo {
 		circular cab=null;
 		int opcion=0,m=0,n=0,x=0;
 		do{
-
 			opcion=leer("jUEGO DE LAS MONEDAS \n I . AGREGAR CANTIDAD DE MONEDAS\n II. LISTADO\n III.- JUGAR!!!\n IV.- Salir\n");
 			switch(opcion)
 			{
 			case 1:
 					m=leer("Monedasg1");
+
 					for(int i=1;i<=m;i++) {
 						cab=agregar_lista(cab,i);
 					}
 				   break;
 			case 2:
 				if(cab!=null)
+
 					listado("lista de monedasG2: ",cab);
 					break;
 			case 3:
@@ -36,6 +37,7 @@ public class josefo {
 					l++;
 					if(l%2==0) {
 						listado("lista de monedasG3: ",cab);
+
 						do {
 							can=leer("Turno del jugador 2\ncantidad de monedas que desea eliminar");
 						}while(can!=1 && can!=2);
