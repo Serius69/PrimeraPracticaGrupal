@@ -217,6 +217,11 @@ public static int leer(String t)
 	int q=Integer.parseInt(JOptionPane.showInputDialog(t,"Seleccionar opcion"));
 	return(q);
 }
+public static int leer1(String t)
+{
+	int q=Integer.parseInt(JOptionPane.showInputDialog(t,"Seleccionar opcion"));
+	return(q);
+}
 public static circular nuevo(int i)
 {
 	circular k=new circular();
@@ -225,3 +230,5 @@ public static circular nuevo(int i)
 	return(k);
 }
 }
+
+
